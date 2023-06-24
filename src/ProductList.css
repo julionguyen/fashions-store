@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.main {
+    display: grid;
+    width: 80%;
+    margin: auto;
+}
+.shop_name {    
+    font-size: xx-large;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    color:chocolate;    
+}
+product_category {
+    display: grid;    
+    grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: darkgray;
+    margin: 10px;    
+}
+.productList_main {
+    display: grid;    
+    grid-auto-flow: row;
+    grid-auto-rows: max-content;
+}
+.button_shirts {
+    width: 120px;
+    padding: 5px;    
+    margin: 5px;
+}
+.button_pants_skirts {
+    width: 120px;
+    padding: 5px;    
+    margin: 5px;
+}
+.button_jackets {
+    width: 120px;
+    padding: 5px;    
+    margin: 5px;
+}
+.button_all {
+    width: 120px;
+    padding: 5px;    
+    margin: 5px;
+}
+.button_price_sort {
+    width: 120px;
+    padding: 5px;    
+    margin: 5px;
+}
+
+.txtSearch {
+    width: 220px;
+    padding: 5px;
+    margin: 5px;
+}
+@media only screen and (max-width: 626px) {
+    body {
+      background-color: #1F1B24;
+      margin: auto;
+      width: 100%;
+    }
+    .forecast_hourly_bar {
+        grid-template-columns: repeat(12,max-content);
+    }
+    .shop_name {
+        color: darkgray;
+    }    
+}
