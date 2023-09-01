@@ -76,7 +76,7 @@ export default class ProductList extends Component {
     }
 
     render () {
-        console.log(this.state.priceSortAsc, this.state.productList)
+        
         return (
             <div className="main">
                     <p className="shop_name">Fashion Boutique</p>
